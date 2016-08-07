@@ -9,7 +9,7 @@ BMR是Apache Hadoop/Spark托管服务，方便您使用MapReduce、Spark、HBase
 * 引入百度定制优化版本镜像，快速修复开源Hadoop/Spark等组件bug
 * 全自动的作业诊断调优；高效的技术支持；专家团队提供优化建议
 
-请访问[百度MapReduce](https://bce.baidu.com/product/bmr.html)了解更多。
+请访问[百度MapReduce](https://cloud.baidu.com/product/bmr.html)了解更多。
 
 ## 索引
 
@@ -30,7 +30,7 @@ BMR是Apache Hadoop/Spark托管服务，方便您使用MapReduce、Spark、HBase
 05/Oct/2015    372
 06/Oct/2015    114
 ```
-请访问[百度MapReduce在线帮助](https://bce.baidu.com/doc/BMR/QuickGuide.html#MapReduce)了解详细操作步骤。
+请访问[百度MapReduce在线帮助](https://cloud.baidu.com/doc/BMR/QuickGuide.html#MapReduce)了解详细操作步骤。
 
 ## <a name="Spark"></a>Spark ##
 
@@ -52,3 +52,4 @@ BMR是Apache Hadoop/Spark托管服务，方便您使用MapReduce、Spark、HBase
 20151006    97
 20151004    247
 ```
+请访问[百度MapReduce在线帮助](https://cloud.baidu.com/doc/BMR/QuickGuide.html#Spark)了解详细操作步骤。
