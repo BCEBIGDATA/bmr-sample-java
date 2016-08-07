@@ -99,7 +99,7 @@ public class AccessLogAnalyzer {
                         return i1 + i2;
                     }
                 });
-        // Coalesce to 1 partition and save as file. Notice that this is for demo purpose only.
+        // Coalesces to 1 partition and saves as file. Notice that this is for demo purpose only.
         pv.coalesce(1, true).saveAsTextFile(args[1]);
 
         // Changes the log info to (date, remoteAddr) and caculates the unique visitors.
@@ -111,7 +111,7 @@ public class AccessLogAnalyzer {
                         return new Tuple2<>(tuple._1(), size);
                     }
                 });
-        // Coalesce to 1 partition and save as file. Notice that this is for demo purpose only.
+        // Coalesces to 1 partition and saves as file. Notice that this is for demo purpose only.
         uv.coalesce(1, true).saveAsTextFile(args[2]);
     }
 }
