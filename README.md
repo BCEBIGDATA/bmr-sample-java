@@ -14,6 +14,7 @@ BMR是Apache Hadoop/Spark托管服务，方便您使用MapReduce、Spark、HBase
 ## 索引
 
 1. [MapReduce](#MapReduce)
+1. [Spark](#Spark)
 
 ## <a name="MapReduce"></a>MapReduce ##
 
@@ -30,3 +31,24 @@ BMR是Apache Hadoop/Spark托管服务，方便您使用MapReduce、Spark、HBase
 06/Oct/2015    114
 ```
 请访问[百度MapReduce在线帮助](https://bce.baidu.com/doc/BMR/QuickGuide.html#MapReduce)了解详细操作步骤。
+
+## <a name="Spark"></a>Spark ##
+
+本示例使用Spark分析Web日志，统计每天的PV和UV。
+
+编译打包后将jar包上传到自己的BOS空间中。
+
+从管理控制台进入对应集群的作业列表页面，然后点击添加作业，最后得到如下输出结果:
+
+```
+------PV------
+20151003    139
+20151005    372
+20151006    114
+20151004    375
+------UV------
+20151003    111
+20151005    212
+20151006    97
+20151004    247
+```
